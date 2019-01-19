@@ -54,6 +54,7 @@ class DBHelper (context: Context) : SQLiteAssetHelper(context, DB_NAME, null, DB
                     cursor.getString(cursor.getColumnIndex("AnswerB")),
                     cursor.getString(cursor.getColumnIndex("AnswerC")),
                     cursor.getString(cursor.getColumnIndex("AnswerD")),
+                    cursor.getString(cursor.getColumnIndex("AnswerE")),
                     cursor.getString(cursor.getColumnIndex("CorrectAnswer")),
                     if(cursor.getInt(cursor.getColumnIndex("IsImageQuestion")) == 0) java.lang.Boolean.FALSE else java.lang.Boolean.TRUE,
                     cursor.getInt(cursor.getColumnIndex("CategoryID"))

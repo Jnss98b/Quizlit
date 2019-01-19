@@ -8,6 +8,7 @@ class Question (
     var answerB: String?,
     var answerC: String?,
     var answerD: String?,
+    var answerE: String?,
     var correctAnswer: String?,
     var isImageQuestion: Boolean,
     var categoryId: Int
